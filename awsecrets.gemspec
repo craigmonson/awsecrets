@@ -5,14 +5,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require_relative 'lib/awsecrets/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'awsecrets'
+  spec.name          = 'cmonson_2ndwatch_awsecrets'
   spec.version       = Awsecrets::VERSION
   spec.authors       = ['k1LoW']
   spec.email         = ['k1lowxb@gmail.com']
 
   spec.summary       = 'AWS credentials loader'
   spec.description   = 'AWS credentials loader'
-  spec.homepage      = 'https://github.com/k1LoW/awsecrets'
+  spec.homepage      = 'https://github.com/cmonson/awsecrets'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
